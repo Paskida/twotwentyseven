@@ -1,0 +1,38 @@
+.navigation {
+    background-color: black;
+    height: 5rem;
+    color: white;
+    font-weight: 700;
+    font-size: $small-font-size;
+    font-family: $font-primary;
+    text-transform: uppercase;
+    z-index: 100;
+
+
+    &__logo {
+        height: 5rem;
+        padding: 0.5rem 0;
+    }
+
+    &__item a {
+        color: white;
+        padding: 0 0.7rem;
+    }
+
+    /* &__item:last-child {
+        text-align: left;
+    } */
+
+    &__item__icon {
+        height: 1.5rem;
+        width: 1.5rem;
+        transform: translateY(30%);
+    }
+}
+
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}

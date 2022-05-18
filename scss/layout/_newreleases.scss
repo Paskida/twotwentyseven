@@ -1,0 +1,11 @@
+.new-releases {
+    &__container {
+        background-color: $color-black;
+        padding-left: 10rem;
+    }
+    &__autoplay {
+        &__img {
+            height: 20vw;
+        }
+    }
+}

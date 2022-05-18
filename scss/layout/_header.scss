@@ -1,0 +1,47 @@
+.header {
+    background:#FFF;
+    position: relative;
+
+    &__text {
+        z-index: 1;
+        position: absolute;
+        text-align: center;
+        margin-top: 5rem;
+
+        &__logo {
+            width: 22rem;
+        }
+    }
+
+    &__fade {
+        z-index: 0;
+        position: absolute;
+
+        &__img {
+            width: 100%;
+            height: 37.5rem;
+            object-fit: cover;
+            display: block;
+            filter: brightness(50%);
+        }
+    }
+
+}
+
+// Rewritten slick styles
+
+.slick-dots
+{
+    bottom: 25px !important;
+}
+
+.slick-dots li button:before
+{
+    font-size: 15px !important;
+    color: white !important;
+}
+.slick-dots li.slick-active button:before
+{
+    color: white !important;
+
+}

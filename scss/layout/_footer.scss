@@ -1,0 +1,35 @@
+
+.footer {
+  &__container {
+    background-color: $color-black;
+    color: $color-white;
+    padding-bottom: 3rem;
+
+    a {
+      color: $color-dark-grey;
+    }
+
+    p {
+      color: $color-dark-grey;
+    }
+  } 
+
+  &__link {
+    font-size: 0.9rem;
+    margin: 0;
+    color: $color-dark-grey;
+  }
+
+  &__copyright {
+    padding: 1.5rem 2rem;
+    text-align: center;
+    font-size: 1rem;
+    color: $color-grey;
+  }
+
+  &__icon {
+    color: $color-white;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+  }
+}
